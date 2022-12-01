@@ -29,3 +29,9 @@ require('telescope').load_extension('sessions_picker')
 "Using lua function
 lua require('telescope').extensions.sessions_picker.sessions_picker()
 ```
+
+
+## TODO
+- Remove OR highlight the current session from the results
+- Create a session (if the provided name does not exist for example)
+- Delete a session 
